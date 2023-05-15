@@ -14,7 +14,7 @@ app.all("*", (req, res, next) => {
 app.use(errorHandler);
 
 
-const PORT = 8080;
+const PORT = 4040;
 app.listen(PORT, () => {
  console.log(`server running on port ${PORT}`);
 });
