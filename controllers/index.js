@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 const { json } = require('express');
 
 const app = express();
-const port = 3000;
+const port = 8080;
 const mongoUrl = 'mongodb+srv://admin:12345@dbcluster.x4snmkm.mongodb.net/DBArticles';
 
 const client = new MongoClient(mongoUrl, { useUnifiedTopology: true });
